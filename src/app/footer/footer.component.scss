@@ -41,3 +41,49 @@ h6{
     font-weight: 500;
     font-size: large;
 }
+.language-select{
+    width: 132px;
+    height: 36px;
+    border-radius: 7px;
+    border-color: orangered;
+    // text-align: center;
+    padding-left: 30px;
+
+}
+
+.select-container {
+    position: relative;
+    margin-top: 40px;
+  }
+  
+  .select-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .select-icon i {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .select-container-2{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 7px;
+  }
+
+  .country-select{
+    width: 230px;
+    height: 36px;
+    border-radius: 7px;
+    border-color: orangered;
+    padding-left: 30px;
+}
+
+.select-container-3{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 7px;
+  }

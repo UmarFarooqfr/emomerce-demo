@@ -260,17 +260,15 @@
         border: none;
         justify-content: center;
     }
-.footer-container{
-    width: 30%;
-    // margin-top: -140px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    .footer{
-        width: 30%;
-        height: 85%;
-        display: flex;
-        // border: none;
-    }
+
 }
+@media screen and (max-width: 1400px) {
+.card-container{
+    margin-top: 190px;
 }
+  }
+@media screen and (max-width: 870px) {
+.card-container{
+    margin-top: 390px !important;
+}
+  }
