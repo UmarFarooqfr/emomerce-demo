@@ -1,0 +1,53 @@
+<div class="fluid-container" >
+    <div class="row">
+        <ng-container *ngFor="let item of dataStream">
+            <div class="card col-md-1 ">
+
+                <div class="img" >
+                    <img class="card-img-top d-flex justify-content-center" src="../../assets/bicyle img.jpg" alt="">
+
+                </div>
+
+                <!-- <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;" >{{item.title}}</h5> -->
+                <!-- <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.description}}</p> -->
+                <!-- <p><strong>Price:</strong> ${{item?.price}}</p> -->
+                <!-- <button class="btn btn-primary" >Add to cart</button> -->
+
+                <div class="card-body">
+                    <h6 class="card-title">Product Name</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    <div class="stars-container">
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <h6 class="number">25</h6>
+                        </div>
+                        <h6 class="text-success">Contanet</h6>
+                    </div>
+                    <div class="shipping">
+                        <h6 class="ship-text">Free Shipping</h6>
+                        <h6 class="bid-text">Project Bidding</h6>
+                    </div>
+                    <div class="price">
+                        <h6 class="ship-text price-text">$975</h6>
+                        <button type="button"  class="btn btn-sm text-dark  button-save"
+                            >Save $30</button>
+                    </div>
+                    <div class="estimated-price" >
+                        <h6 class="ship-text">$975- $875</h6>
+                        <h6 class="pcs-text d-flex justify-content-between" style="margin-top: 10px;"> <p>10</p> pcs (<p> MOQ</p> )</h6>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="ship-text text-success">In Stock</h6>
+                        <h6 class="bid-text" style="color: red;font-weight: bold; ">Only 2 Available</h6>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+
+    </div>
+</div>

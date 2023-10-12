@@ -1,0 +1,43 @@
+.margin-width {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .first-part {
+        width: 46%;
+        text-align: left;
+        margin-left: 0;
+        border-top: 3px solid orange;
+        color: orange;
+        // background-color: red
+        ;
+    }
+
+    .second-part {
+        width: 44%;
+        text-align: left;
+        margin-left: 0;
+        border-top: 3px solid orange;
+        color: orange;
+        ;
+    }
+}
+
+.items {
+    width: 78%;
+}
+
+.image-part {
+
+    width: 100px;
+    height: 70px;
+}
+
+.image-part-2 {
+    width: 60px;
+    height: 60px;
+}
+h6{
+    font-weight: 500;
+    font-size: large;
+}
