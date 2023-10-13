@@ -8,13 +8,15 @@ import { CardsComponent } from './cards/cards.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './demo-material-module';
+import { DetailpageComponent } from './detailpage/detailpage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     CardsComponent,
-    FooterComponent
+    FooterComponent,
+    DetailpageComponent
   ],
   imports: [
     BrowserModule,
