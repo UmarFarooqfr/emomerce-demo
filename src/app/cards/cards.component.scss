@@ -203,3 +203,17 @@
 // h5{
 // cursor: pointer;
 // }
+
+.addToCart{
+width: 100%;
+display: flex;
+justify-content: center;
+button{
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 10px;
+    color: white;
+    height: 35px;
+    width: 50%;
+}
+}

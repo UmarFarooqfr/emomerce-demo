@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './demo-material-module';
 import { DetailpageComponent } from './detailpage/detailpage.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DetailpageComponent } from './detailpage/detailpage.component';
     DashboardComponent,
     CardsComponent,
     FooterComponent,
-    DetailpageComponent
+    DetailpageComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,

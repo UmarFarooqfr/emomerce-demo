@@ -1,0 +1,21 @@
+table, td, th {
+    border: 2px solid orange;
+  }
+  td,th{
+    text-align: center;
+  }
+  table {
+    width: 100%;
+  }
+  .main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    .inner-conainer{
+        width: 90%;
+        margin-top: 30px;
+        // display: flex;
+        // justify-content: center;
+    }
+  }
